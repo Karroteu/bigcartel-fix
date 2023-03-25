@@ -1,3 +1,5 @@
+console.log("bbb")
+
 window.addEventListener('DOMContentLoaded', function() {
     // Set the date we're counting down to
     var countDownDate = new Date("May 30, 2023 15:00:00").getTime();
@@ -24,7 +26,7 @@ window.addEventListener('DOMContentLoaded', function() {
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementsByClassName("maintenance-message")[0].innerHTML = "Już za chwilę...";
+        document.getElementsByClassName("maintenance-message")[0].innerHTML = "Już za chwilę :)";
     }
     }, 1000);
-}
+})
